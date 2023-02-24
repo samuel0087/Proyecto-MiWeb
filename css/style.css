@@ -1,0 +1,39 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+#wrap{
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 2px 0px 2px #333;
+    box-shadow: 7px 0px 10px #bbb, -7px 0px 10px #bbb;
+}
+
+header{
+    height: 150px;
+    background-color: #aaa;
+    margin-bottom: 20px;
+}
+
+main{
+    height: 400px;
+    width: 90%;
+    background-color: #aaa;
+    margin: 20px auto;
+}
+
+footer{
+    background-color: #aaa;
+    min-height: 300px;
+    padding: 20px;
+}
+
+footer span{
+    display: block;
+    width: 180px;
+    margin: auto;
+    font-size: 15px;
+    text-align: center;
+}
