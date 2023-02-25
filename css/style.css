@@ -12,14 +12,63 @@
 }
 
 header{
-    height: 150px;
+    height: 100px;
     background-color: #aaa;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.logo{
+    background-color: #333;
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+}
+
+header .logo{
+    position: absolute;
+    margin: 20px;
+}
+
+header nav{
+    background-color: #333;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+header nav ul{
+    display: block;
+}
+header nav ul li{
+    display: inline-block;
+    float: left;
+    width: 40px;
+    padding: 5px 15px;
+    color: white;
+}
+
+header nav ul li:nth-last-child(1){
+    float:none;
+}
+
+#principal{
+    display: flex;
+    justify-content: space-around;
     margin-bottom: 20px;
 }
 
 main{
     height: 400px;
-    width: 90%;
+    width: 60%;
+    background-color: #aaa;
+    margin: 20px auto;
+}
+
+aside{
+    height: 400px;
+    width: 30%;
     background-color: #aaa;
     margin: 20px auto;
 }
